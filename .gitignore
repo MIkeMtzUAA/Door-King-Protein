@@ -1,0 +1,15 @@
+# Ignorar el núcleo de WordPress y configuraciones locales
+wp-admin/
+wp-includes/
+wp-config.php
+.htaccess
+
+# Ignorar archivos subidos por usuarios (imágenes/videos)
+wp-content/uploads/
+
+# Ignorar temas y plugins por defecto si no los estás editando
+wp-content/themes/twentytwentythree/
+wp-content/themes/twentytwentyfour/
+
+# Incluir únicamente tu tema o plugin de trabajo
+# (Asegúrate de quitar del .gitignore la carpeta de tu tema si la creaste tú)
